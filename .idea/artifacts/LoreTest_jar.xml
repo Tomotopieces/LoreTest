@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="LoreTest:jar">
+    <output-path>$PROJECT_DIR$/../Output</output-path>
+    <root id="archive" name="LoreTest.jar">
+      <element id="module-output" name="LoreTest" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/playerData.yml" />
+    </root>
+  </artifact>
+</component>
